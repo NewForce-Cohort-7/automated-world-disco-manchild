@@ -1,7 +1,7 @@
 // Import the function that returns a copy of the fish array
 import {getCitizens} from './lapaz.js'
 
-export const kCitizenList = () => {
+export const CitizenList = () => {
     // Invoke the function that you imported from the database module
     let citizens = getCitizens();
 
