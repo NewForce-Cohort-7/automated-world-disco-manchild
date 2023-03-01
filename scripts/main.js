@@ -16,9 +16,8 @@ for (let singleALandmarks of allALandmarks) {
 import {aLandmarkList} from './argentina/landmarkslist.js'
 
 
-const parentHTMLElement = document.querySelector(".alandmarkobjects")
-
-parentHTMLElement.innerHTML = aLandmarkList()
+const aLParentHTMLElement = document.querySelector(".alandmarkobjects")
+aLParentHTMLElement.innerHTML = aLandmarkList()
 
 
 //----------------landmark-citizen-division-line-(same country)----------------------------------
@@ -35,9 +34,9 @@ for (const singleACitizens of allACitizens) {
 import {aCitizenList} from './argentina/citizenslist.js'
 
 
-const parentHTMLElement = document.querySelector(".acitizenobjects")
+const aCParentHTMLElement = document.querySelector(".acitizenobjects")
 
-parentHTMLElement.innerHTML = aCitizenList()
+aCParentHTMLElement.innerHTML = aCitizenList()
 
 
 //================================================================================================
@@ -56,12 +55,12 @@ for (const singleJLandmarks of allJLandmarks) {
 }
 
 // Import the LandmarkList function
-import {jLandmarkList} from './japan/tokyo.js'
+import {jLandmarkList} from './japan/landmarkslist.js'
 
 
-const parentHTMLElement = document.querySelector(".jlandmarkobjects")
+const jLParentHTMLElement = document.querySelector(".jlandmarkobjects")
 
-parentHTMLElement.innerHTML = jLandmarkList()
+jLParentHTMLElement.innerHTML = jLandmarkList()
 
 
 //----------------landmark-citizen-division-line-(same country)----------------------------------
@@ -75,12 +74,12 @@ for (const singleJCitizens of allJCitizens) {
 }
 
 // Import the CitizenList function
-import {jCitizenList} from './japan/tokyo.js'
+import {jCitizenList} from './japan/citizenslist.js'
 
 
-const parentHTMLElement = document.querySelector(".jcitizenobjects")
+const jCParentHTMLElement = document.querySelector(".jcitizenobjects")
 
-parentHTMLElement.innerHTML = jCitizenList()
+jCParentHTMLElement.innerHTML = jCitizenList()
 
 
 //================================================================================================
@@ -99,12 +98,12 @@ for (const singleBLandmarks of allBLandmarks) {
 }
 
 // Import the LandmarkList function
-import {bLandmarkList} from './bolivia/lapaz.js'
+import {bLandmarkList} from './bolivia/landmarkslist.js'
 
 
-const parentHTMLElement = document.querySelector(".blandmarkobjects")
+const bLParentHTMLElement = document.querySelector(".blandmarkobjects")
 
-parentHTMLElement.innerHTML = bLandmarkList()
+bLParentHTMLElement.innerHTML = bLandmarkList()
 
 
 //----------------landmark-citizen-division-line-(same country)----------------------------------
@@ -118,12 +117,12 @@ for (const singleBCitizens of allBCitizens) {
 }
 
 // Import the CitizenList function
-import {bCitizenList} from './bolivia/lapaz.js'
+import {bCitizenList} from './bolivia/citizenslist.js'
 
 
-const parentHTMLElement = document.querySelector(".bcitizenobjects")
+const bCParentHTMLElement = document.querySelector(".bcitizenobjects")
 
-parentHTMLElement.innerHTML = bCitizenList()
+bCParentHTMLElement.innerHTML = bCitizenList()
 
 
 //================================================================================================
@@ -142,12 +141,12 @@ for (const singleSLandmarks of allSLandmarks) {
 }
 
 // Import the LandmarkList function
-import {sLandmarkList} from './scotland/glasgow.js'
+import {sLandmarkList} from './scotland/landmarkslist.js'
 
 
-const parentHTMLElement = document.querySelector(".slandmarkobjects")
+const sLParentHTMLElement = document.querySelector(".slandmarkobjects")
 
-parentHTMLElement.innerHTML = sLandmarkList()
+sLParentHTMLElement.innerHTML = sLandmarkList()
 
 
 //----------------landmark-citizen-division-line-(same country)----------------------------------
@@ -161,12 +160,12 @@ for (const singleSCitizens of allSCitizens) {
 }
 
 // Import the CitizenList function
-import {sCitizenList} from './scotland/glasgow.js'
+import {sCitizenList} from './scotland/citizenslist.js'
 
 
-const parentHTMLElement = document.querySelector(".scitizenobjects")
+const sCParentHTMLElement = document.querySelector(".scitizenobjects")
 
-parentHTMLElement.innerHTML = sCitizenList()
+sCParentHTMLElement.innerHTML = sCitizenList()
 
 
 //==========================================================
