@@ -1,23 +1,22 @@
 // Import the function that returns a copy of the fish array
-import {getLandmarks} from './buenosaires.js'
+import {getALandmarks} from './buenosaires.js'
 
-export const LandmarkList = () => {
+export const aLandmarkList = () => {
     // Invoke the function that you imported from the database module
-    let landmarks = getLandmarks();
+    let aLandmarks = getALandmarks();
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="landmarksList">'
+    let htmlString = '<article class="aLandmarksList">'
 
     // Create HTNL representations of each fish here
-    for (const singleLandmarks of landmarks) {
+    for (const singleALandmarks of aLandmarks) {
 
         // Why is there a backtick used for this string?
-        htmlString += `<section class="landmarkcard">
-        <div class="landmark__name">${singleLandmarks.name}</div>
-        <div class="landmark__location">${singleLandmarks.location}</div>
-        <div class="landmark__description">${singleLandmarks.description}</div>
-        <div><img  class="landmark__image image--card" src="${singleLandmarks.image}" /></div>
-            <hr class="dashed">
+        htmlString += `<section class="argentinalandmarkcard">
+        <div class="landmark__name">${singleALandmarks.name}</div>
+        <div class="landmark__location">${singleALandmarks.location}</div>
+        <div class="landmark__description">${singleALandmarks.description}</div>
+        <div><img  class="landmark__image image--card" src="${singleALandmarks.image}" /></div>
         </section>
         `
     }
