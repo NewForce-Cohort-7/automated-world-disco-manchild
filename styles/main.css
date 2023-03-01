@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(210, 210, 210);
+}
+
+h2 {
+  padding: 1vw;
+}
+
+.pageHeader {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  padding: 5px;
+  height: 75px;
+  text-align: center;
+  background-color: red;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+header > img {
+  width: 150px;
+}
+
+.allCountries {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 80vw;
+  margin-top: 165px;
+}
+
+.countries_left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  background-color: rgb(245, 243, 245);
+}
+
+.countries_right {
+  height: fit-content;
+  background-color: rgb(245, 243, 245);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div > a {
+  display: flex;
+  width: 45vw;
+  height: 45vw;
+}
+
+div > img {
+  width: 45vw;
+  height: 45vw;
+}
