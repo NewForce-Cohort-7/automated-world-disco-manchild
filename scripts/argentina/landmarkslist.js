@@ -17,7 +17,6 @@ export const aLandmarkList = () => {
         <div class="landmark__location">${singleALandmarks.location}</div>
         <div class="landmark__description">${singleALandmarks.description}</div>
         <div><img  class="landmark__image image--card" src="${singleALandmarks.image}" /></div>
-            <hr class="dashed">
         </section>
         `
     }
