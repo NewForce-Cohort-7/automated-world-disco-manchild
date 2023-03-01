@@ -53,10 +53,10 @@ const database = {
     ]
 }
 
-export const getLandmarks = () => {
-    return database.landmarks.map(copyOfSingleLandmarksObject => ({...copyOfSingleLandmarksObject}))
+export const getJLandmarks = () => {
+    return database.landmarks.map(copyOfSingleJLandmarksObject => ({...copyOfSingleJLandmarksObject}))
 }
 
-export const getCitizens = () => {
-    return database.citizens.map(copyOfSingleCitizensObject => ({...copyOfSingleCitizensObject}))
+export const getJCitizens = () => {
+    return database.citizens.map(copyOfSingleJCitizensObject => ({...copyOfSingleJCitizensObject}))
 }

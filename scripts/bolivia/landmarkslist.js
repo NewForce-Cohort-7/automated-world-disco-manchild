@@ -1,22 +1,22 @@
 // Import the function that returns a copy of the fish array
-import {getLandmarks} from './lapaz.js'
+import {getBLandmarks} from './lapaz.js'
 
-export const LandmarkList = () => {
+export const bLandmarkList = () => {
     // Invoke the function that you imported from the database module
-    let landmarks = getLandmarks();
+    let bLandmarks = getBLandmarks();
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="landmarksList">'
+    let htmlString = '<article class="blandmarksList">'
 
     // Create HTNL representations of each fish here
-    for (const singleLandmarks of landmarks) {
+    for (const singleBLandmarks of bLandmarks) {
 
         // Why is there a backtick used for this string?
-        htmlString += `<section class="landmarkcard">
-        <div class="landmark__name">${singleLandmarks.name}</div>
-        <div class="landmark__location">${singleLandmarks.location}</div>
-        <div class="landmark__description">${singleLandmarks.description}</div>
-        <div><img  class="landmark__image image--card" src="${singleLandmarks.image}" /></div>
+        htmlString += `<section class="blandmarkcard">
+        <div class="landmark__name">${singleBLandmarks.name}</div>
+        <div class="landmark__location">${singleBLandmarks.location}</div>
+        <div class="landmark__description">${singleBLandmarks.description}</div>
+        <div><img  class="landmark__image image--card" src="${singleBLandmarks.image}" /></div>
             <hr class="dashed">
         </section>
         `
