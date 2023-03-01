@@ -98,3 +98,67 @@ header > a {
   width: 40vw;
   background-color: rgba(0, 255, 255, 0.506);
 }
+
+/*  */
+
+.alandmarkobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgb(255, 0, 255);
+}
+
+.acitizenobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgba(0, 255, 255, 0.506);
+}
+
+/*  */
+
+.blandmarkobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgb(255, 0, 255);
+}
+
+.bcitizenobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgba(0, 255, 255, 0.506);
+}
+
+/*  */
+
+.jlandmarkobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgb(255, 0, 255);
+}
+
+.jcitizenobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgba(0, 255, 255, 0.506);
+}
+
+/*  */
+
+.slandmarkobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgb(255, 0, 255);
+}
+
+.scitizenobjects {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgba(0, 255, 255, 0.506);
+}
