@@ -1,171 +1,172 @@
-//===============================================================================================
 
-//=======================================(argentina)=============================================
+// //===============================================================================================
 
-//===============================================================================================
-//argentina buenos aires landmark import
-import { getALandmarks } from './argentina/buenosaires.js'
+// //=======================================(argentina)=============================================
 
-let allALandmarks = getALandmarks()
+// //===============================================================================================
+// //argentina buenos aires landmark import
+// import { getALandmarks } from './argentina/buenosaires.js'
 
-for (let singleALandmarks of allALandmarks) {
-    console.log(singleALandmarks)
-}
+// let allALandmarks = getALandmarks();
 
-// Import the LandmarkList function
-import {aLandmarkList} from './argentina/landmarkslist.js'
+// for (let singleALandmarks of allALandmarks) {
+//     console.log(singleALandmarks)
+// }
 
+// // Import the LandmarkList function
+// import {aLandmarkList} from './argentina/landmarkslist.js'
 
-const aLParentHTMLElement = document.querySelector(".alandmarkobjects")
-aLParentHTMLElement.innerHTML = aLandmarkList()
 
+// let aLParentHTMLElement = document.querySelector(".alandmarkobjects")
+// aLParentHTMLElement.innerHTML = aLandmarkList();
 
-//----------------landmark-citizen-division-line-(same country)----------------------------------
-//argentina buenos aires citizens import
-import { getACitizens } from './argentina/buenosaires.js'
 
-let allACitizens = getACitizens()
+// //----------------landmark-citizen-division-line-(same country)----------------------------------
+// //argentina buenos aires citizens import
+// import { getACitizens } from './argentina/buenosaires.js'
 
-for (const singleACitizens of allACitizens) {
-    console.log(singleACitizens)
-}
+// let allACitizens = getACitizens();
 
-// Import the CitizenList function
-import {aCitizenList} from './argentina/citizenslist.js'
+// for (const singleACitizens of allACitizens) {
+//     console.log(singleACitizens)
+// }
 
+// // Import the CitizenList function
+// import {aCitizenList} from './argentina/citizenslist.js'
 
-const aCParentHTMLElement = document.querySelector(".acitizenobjects")
 
-aCParentHTMLElement.innerHTML = aCitizenList()
+// const aCParentHTMLElement = document.querySelector(".acitizenobjects")
 
+// aCParentHTMLElement.innerHTML = aCitizenList();
 
-//================================================================================================
 
-//========================================(japan)=================================================
+// //================================================================================================
 
-//================================================================================================
+// //========================================(japan)=================================================
 
-//japan tokyo landmark import
-import { getJLandmarks } from './japan/tokyo.js'
+// //================================================================================================
 
-let allJLandmarks = getJLandmarks()
+// //japan tokyo landmark import
+// import { getJLandmarks } from './japan/tokyo.js'
 
-for (const singleJLandmarks of allJLandmarks) {
-    console.log(singleJLandmarks)
-}
+// let allJLandmarks = getJLandmarks();
 
-// Import the LandmarkList function
-import {jLandmarkList} from './japan/landmarkslist.js'
+// for (const singleJLandmarks of allJLandmarks) {
+//     console.log(singleJLandmarks)
+// }
 
+// // Import the LandmarkList function
+// import {jLandmarkList} from './japan/landmarkslist.js'
 
-const jLParentHTMLElement = document.querySelector(".jlandmarkobjects")
 
-jLParentHTMLElement.innerHTML = jLandmarkList()
+// const jLParentHTMLElement = document.querySelector(".jlandmarkobjects")
 
+// jLParentHTMLElement.innerHTML = jLandmarkList();
 
-//----------------landmark-citizen-division-line-(same country)----------------------------------
-//japan tokyo citizens import
-import { getJCitizens } from './japan/tokyo.js'
 
-let allJCitizens = getJCitizens()
+// //----------------landmark-citizen-division-line-(same country)----------------------------------
+// //japan tokyo citizens import
+// import { getJCitizens } from './japan/tokyo.js'
 
-for (const singleJCitizens of allJCitizens) {
-    console.log(singleJCitizens)
-}
+// let allJCitizens = getJCitizens();
 
-// Import the CitizenList function
-import {jCitizenList} from './japan/citizenslist.js'
+// for (const singleJCitizens of allJCitizens) {
+//     console.log(singleJCitizens)
+// }
 
+// // Import the CitizenList function
+// import {jCitizenList} from './japan/citizenslist.js'
 
-const jCParentHTMLElement = document.querySelector(".jcitizenobjects")
 
-jCParentHTMLElement.innerHTML = jCitizenList()
+// const jCParentHTMLElement = document.querySelector(".jcitizenobjects")
 
+// jCParentHTMLElement.innerHTML = jCitizenList();
 
-//================================================================================================
 
-//========================================(bolivia)===============================================
+// //================================================================================================
 
-//================================================================================================
+// //========================================(bolivia)===============================================
 
-//Bolivia lapaz landmark import
-import { getBLandmarks } from './bolivia/lapaz.js'
+// //================================================================================================
 
-let allBLandmarks = getBLandmarks()
+// //Bolivia lapaz landmark import
+// import { getBLandmarks } from './bolivia/lapaz.js'
 
-for (const singleBLandmarks of allBLandmarks) {
-    console.log(singleBLandmarks)
-}
+// let allBLandmarks = getBLandmarks();
 
-// Import the LandmarkList function
-import {bLandmarkList} from './bolivia/landmarkslist.js'
+// for (const singleBLandmarks of allBLandmarks) {
+//     console.log(singleBLandmarks)
+// }
 
+// // Import the LandmarkList function
+// import {bLandmarkList} from './bolivia/landmarkslist.js'
 
-const bLParentHTMLElement = document.querySelector(".blandmarkobjects")
 
-bLParentHTMLElement.innerHTML = bLandmarkList()
+// const bLParentHTMLElement = document.querySelector(".blandmarkobjects")
 
+// bLParentHTMLElement.innerHTML = bLandmarkList();
 
-//----------------landmark-citizen-division-line-(same country)----------------------------------
-//bolivia lapaz citizens import
-import { getBCitizens } from './bolivia/lapaz.js'
 
-let allBCitizens = getBCitizens()
+// //----------------landmark-citizen-division-line-(same country)----------------------------------
+// //bolivia lapaz citizens import
+// import { getBCitizens } from './bolivia/lapaz.js'
 
-for (const singleBCitizens of allBCitizens) {
-    console.log(singleBCitizens)
-}
+// let allBCitizens = getBCitizens();
 
-// Import the CitizenList function
-import {bCitizenList} from './bolivia/citizenslist.js'
+// for (const singleBCitizens of allBCitizens) {
+//     console.log(singleBCitizens)
+// }
 
+// // Import the CitizenList function
+// import {bCitizenList} from './bolivia/citizenslist.js'
 
-const bCParentHTMLElement = document.querySelector(".bcitizenobjects")
 
-bCParentHTMLElement.innerHTML = bCitizenList()
+// const bCParentHTMLElement = document.querySelector(".bcitizenobjects")
 
+// bCParentHTMLElement.innerHTML = bCitizenList();
 
-//================================================================================================
 
-//========================================(scotland)==============================================
+// //================================================================================================
 
-//================================================================================================
+// //========================================(scotland)==============================================
 
-//scotland glasgow landmark import
-import { getSLandmarks } from './scotland/glasgow.js'
+// //================================================================================================
 
-let allSLandmarks = getSLandmarks()
+// //scotland glasgow landmark import
+// import { getSLandmarks } from './scotland/glasgow.js'
 
-for (const singleSLandmarks of allSLandmarks) {
-    console.log(singleSLandmarks)
-}
+// let allSLandmarks = getSLandmarks();
 
-// Import the LandmarkList function
-import {sLandmarkList} from './scotland/landmarkslist.js'
+// for (const singleSLandmarks of allSLandmarks) {
+//     console.log(singleSLandmarks)
+// }
 
+// // Import the LandmarkList function
+// import {sLandmarkList} from './scotland/landmarkslist.js'
 
-const sLParentHTMLElement = document.querySelector(".slandmarkobjects")
 
-sLParentHTMLElement.innerHTML = sLandmarkList()
+// const sLParentHTMLElement = document.querySelector(".slandmarkobjects")
 
+// sLParentHTMLElement.innerHTML = sLandmarkList();
 
-//----------------landmark-citizen-division-line-(same country)----------------------------------
-//scotland glasgow citizens import
-import { getSCitizens } from './scotland/glasgow.js'
 
-let allSCitizens = getSCitizens()
+// //----------------landmark-citizen-division-line-(same country)----------------------------------
+// //scotland glasgow citizens import
+// import { getSCitizens } from './scotland/glasgow.js'
 
-for (const singleSCitizens of allSCitizens) {
-    console.log(singleSCitizens)
-}
+// let allSCitizens = getSCitizens();
 
-// Import the CitizenList function
-import {sCitizenList} from './scotland/citizenslist.js'
+// for (const singleSCitizens of allSCitizens) {
+//     console.log(singleSCitizens)
+// }
 
+// // Import the CitizenList function
+// import {sCitizenList} from './scotland/citizenslist.js'
 
-const sCParentHTMLElement = document.querySelector(".scitizenobjects")
 
-sCParentHTMLElement.innerHTML = sCitizenList()
+// const sCParentHTMLElement = document.querySelector(".scitizenobjects")
 
+// sCParentHTMLElement.innerHTML = sCitizenList();
 
-//==========================================================
+
+// //==========================================================
