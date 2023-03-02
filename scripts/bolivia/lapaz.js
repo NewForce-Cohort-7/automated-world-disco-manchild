@@ -34,19 +34,19 @@ const database = {
     citizens: [
         {
         name:"Simon Bolivar",
-        bday:"July 24, 1783-December 17, 1830",
+        bday:"07.24.1783-Deceased",
         known:"First President of Colombia",
         image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Jos%C3%A9._1922%2C_Legislative_Palace%2C_La_Paz.png/399px-Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Jos%C3%A9._1922%2C_Legislative_Palace%2C_La_Paz.png"
         },
         {
         name:"Bernardo Guarachi",
-        bday:"January 14, 1953-Living",
+        bday:"01.14..53-Living",
         known:"First Bolivian to summit the Everest, and Bolivia's most iconic climber.",
         image:"https://www.visitbolivia.net/wp-content/uploads/2020/01/Bernando-Guarachi.jpg"
         },
         {
         name:"Marco Antonio Etcheverry",
-        bday:"September 26,1970-Living",
+        bday:"09.26.70-Living",
         known:"Retired Major League Soccer player for D.C United",
         image:"https://pbs.twimg.com/media/DoBEUJwX0AETS1x?format=jpg&name=small"
         }
