@@ -104,6 +104,8 @@ header > a {
 .alandmarkobjects {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 40vw;
   background-color: rgb(255, 0, 255);
 }
