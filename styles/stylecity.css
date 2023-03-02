@@ -9,6 +9,7 @@ body {
   justify-content: center;
   flex-direction: center;
   background-color: rgb(210, 210, 210);
+  /* background-color: rgb(0, 234, 255); */
 }
 
 .pageHeader {
@@ -63,40 +64,27 @@ header > a {
   position: absolute;
   z-index: 0;
   padding-top: 75px;
-  min-height: 150px;
+  width: 100vw;
+  min-height: auto;
 }
 
 .mainContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  /* align-items: center; */
   width: 80vw;
-  height: fit-content;
-  margin-top: 165px;
-  padding: 25px;
+  /* height: fit-content; */
   padding-top: 250px;
-  /* background-color: yellow; */
+  /* background-color: hotpink; */
 }
 
 .subContainer {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding 30vw;
-  background-color:blue;
-}
-
-.locations {
-  display: flex;
-  justify-content: center;
-  width: 40vw;
-  background-color: rgb(255, 0, 255);
-}
-
-.people {
-  display: flex;
-  justify-content: center;
-  width: 40vw;
-  background-color: rgba(0, 255, 255, 0.506);
+  background-color: #f5f3f5;
 }
 
 /*  */
@@ -104,17 +92,155 @@ header > a {
 .alandmarkobjects {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   flex-direction: column;
   flex-wrap: wrap;
-  width: 40vw;
-  background-color: rgb(255, 0, 255);
+  width: 30vw;
+
+  background-color: #f5f3f5;
+}
+
+.blandmarkobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+
+  background-color: #f5f3f5;
+}
+
+.jlandmarkobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.slandmarkobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.landmark__image {
+  width: 30vw;
+}
+
+.landmark_description {
+  width: 30vw;
 }
 
 .acitizenobjects {
   display: flex;
   justify-content: center;
-  width: 40vw;
-  background-color: rgba(0, 255, 255, 0.506);
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.bcitizenobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.jcitizenobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.scitizenobjects {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30vw;
+  background-color: #f5f3f5;
+}
+
+.acitizencard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.argentinalandmarkcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bcitizencard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bolivialandmarkcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.jcitizencard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.japanlandmarkcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.scitizencard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.scotlandlandmarkcard {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+}
+
+.citizen__image {
+  width: 30vw;
+}
+
+.citizen__known {
+  width: 30vw;
 }
 
 /*  */
@@ -123,14 +249,14 @@ header > a {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgb(255, 0, 255);
+  /* background-color: rgb(255, 0, 255); */
 }
 
 .bcitizenobjects {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgba(0, 255, 255, 0.506);
+  /* background-color: rgba(0, 255, 255, 0.506); */
 }
 
 /*  */
@@ -139,14 +265,14 @@ header > a {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgb(255, 0, 255);
+  /* background-color: rgb(255, 0, 255); */
 }
 
 .jcitizenobjects {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgba(0, 255, 255, 0.506);
+  /* background-color: rgba(0, 255, 255, 0.506); */
 }
 
 /*  */
@@ -155,12 +281,12 @@ header > a {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgb(255, 0, 255);
+  /* background-color: rgb(255, 0, 255); */
 }
 
 .scitizenobjects {
   display: flex;
   justify-content: center;
   width: 40vw;
-  background-color: rgba(0, 255, 255, 0.506);
+  /* background-color: rgba(0, 255, 255, 0.506); */
 }
