@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: center;
+  width: 100vw;
   background-color: rgb(210, 210, 210);
   /* background-color: rgb(0, 234, 255); */
 }
